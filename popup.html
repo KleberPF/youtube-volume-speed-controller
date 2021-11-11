@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./popup.css" />
+  </head>
+  <body>
+    <div class="sliders-container">
+      <div class="slider-container">
+        <div class="slider-label">Speed: <span id="speed-text"></span></div>
+        <input
+          id="speed-slider"
+          type="range"
+          min="0"
+          max="8"
+          step="0.1"
+          value="1"
+        />
+      </div>
+      <div class="slider-container">
+        <div class="slider-label">Volume: <span id="volume-text"></span></div>
+        <input
+          id="volume-slider"
+          type="range"
+          min="0"
+          max="1"
+          step="0.01"
+          value="0.5"
+        />
+      </div>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>

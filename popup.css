@@ -1,0 +1,29 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.sliders-container {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  background-color: rgb(86, 86, 112);
+}
+
+.slider-container {
+  margin: 10px 20px;
+}
+
+.slider-label {
+  color: white;
+}
+
+#speed-slider,
+#volume-slider {
+  width: 100%;
+}

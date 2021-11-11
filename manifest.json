@@ -1,0 +1,13 @@
+{
+  "name": "YouTube Volume and Speed Controller",
+  "description": "Control the volume and speed of a YouTube video.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
